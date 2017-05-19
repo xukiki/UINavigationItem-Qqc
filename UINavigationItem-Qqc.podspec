@@ -6,12 +6,12 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.name         = "UINavigationItem-Qqc"
-  s.version      = "1.0.82"
+  s.version      = "1.0.84"
   s.summary      = "UINavigationItem-Qqc"
   s.homepage     = "https://github.com/xukiki/UINavigationItem-Qqc"
   s.source       = { :git => "https://github.com/xukiki/UINavigationItem-Qqc.git", :tag => "#{s.version}" }
   
   s.source_files  = ["UINavigationItem-Qqc/*.{h,m}"]
-  s.dependency  = "NSArray-Qqc"
+  s.dependency "NSArray-Qqc"
 
 end
